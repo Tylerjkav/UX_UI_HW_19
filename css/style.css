@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+#all {
+  max-width: 1500px;
+  margin: auto;
+}
+
 header {
   position: fixed;
   background-color: white;
