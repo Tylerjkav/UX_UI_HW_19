@@ -9,6 +9,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+<!-- Top navigation   -->
+
   <header>
     <div class="inlineBlock">
       <img style="width: 58px;" src="images/k-icon.png" alt="Tyler Kavanaugh logo"></div>
@@ -16,6 +19,8 @@
       <div class="inlineBlock2"><a href="#">About</a></div>
       <div class="inlineBlock2"><a href="#">Resume</a></div>
   </header>
+
+<!--Title Section with contact Links-->
 
 <section>
     <div class="contentTop">
@@ -35,7 +40,18 @@
     <div class="contentArrow"><img src="images/downarrow.png" alt="arrow"></div>
   </div>
 </section>
+<!--toggle button-->
 
+<section class="content">
+  <div class="toggle">
+    <div class="contentArrow">
+      <button class="buttonSec">More About Me</button>
+    </div>
+  </div>
+</section>
+
+<!--Begin Hello and Toggle Section-->
+<div id="toggleDown">
   <section>
     <div class="content">
       <h1>Hello.</h1>
@@ -48,7 +64,7 @@
     <div class="content">
       <div class="inlineBlockcont">
         <div class="inlineBlockcont"><a href="https://www.linkedin.com/in/tyler-kavanaugh-28290b1b0/" target="_blank"><img src="images/Icon simple-linkedin.png" alt="LinkedIn Profile"></a></div>
-        <div class="inlineBlockcont"><a href="mailto:tyler@tylerkavanaugh.com"><button>Email Me</button></a></div>
+        <div class="inlineBlockcont"><a href="mailto:tyler@tylerkavanaugh.com"><button class="buttonMain">Email Me</button></a></div>
         <div class="inlineBlockcont"><a href="mailto:tyler@tylerkavanaugh.com"><h6>tyler@tylerkavanaugh.com</h6></a></div>
       </div>
     </div>
@@ -61,6 +77,7 @@
     <br>
     </div>
   </section>
+
  <!--  My UX Skills section coded using CSS flex -->
 <section class="content">
   <div class="contentArrow"><img src="images/downarrow.png" alt="arrow"></div>
@@ -71,6 +88,18 @@
       <div class="flexItem"><img src="images/wireframe-icon.png" alt="Wireframing" width="75%"><p style="text-align: left; font-size: 18px;"><strong>Wireframing</strong></p><p class="leftJustified">Quickly confirm legitimacy of concepts and ensure all important elements are included. <br><br>Sketches first > Low, Mid, High Fidelity.</p></div>
   </div>
 </section>
+
+<section class="content">
+  <div class="toggle">
+    <div class="contentArrow">
+      <button class="buttonSec">Less About Me</button>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<!--End Toggle-->
 
 <!-- My Work Section Constructed using CSS Grid -->
 <section class="content">
@@ -85,7 +114,7 @@
         <h5>UNIVERSITY OF ARIZONA BOOTCAMP<br>NOV 2020</h5><br>
         <h2>Federal Trade Commission Case Study</h2>
         <p style="text-align: left;">While taking a UX/UI Bootcamp course with the University of Arizona, I was tasked review and redesign the FTC website. After my initial research, I discovered key problems to address in the redesign. My solution to updating the site included updating the navigation, color scheme and creating consistency throughout the site.</p>
-        <button>View Project</button>
+        <button class="buttonMain">View Project</button>
       </div>
     </div>
   </div>
@@ -96,7 +125,7 @@
           <h5>UNIVERSITY OF ARIZONA BOOTCAMP<br>DEC 2020</h5><br>
           <h2>Into the Wild Outdoors Redesign</h2>
           <p style="text-align: left;">Into the Wild Outdoors is a 501(c)3 organization that was created for the purpose of making outdoor dreams come true for deserving people. After reviewing the site, my team and I discovered for areas to add value to the site and help gain more interests and needed donations.</p>
-          <button>View Project</button>
+          <button class="buttonMain">View Project</button>
         </div>
       </div>
     </div>
@@ -106,7 +135,7 @@
         <h5>UNIVERSITY OF ARIZONA BOOTCAMP<br>SEP 2020</h5><br>
         <h2>Tourist Mobile App</h2>
         <p style="text-align: left;">Tourist is an app made for those who want to keep travel simple. Easily find curated travel activities the users can filter and save without spending a lot of time searching for fun things to do. </p>
-        <button>View Project</button>
+        <button class="buttonMain">View Project</button>
       </div>
     </div>
   </div></div>
@@ -123,9 +152,9 @@
 
     <div class="linkedin"><img src="images/linkedin.png"; alt="LinkedIn"><p><a href="https://www.linkedin.com/in/tyler-kavanaugh-28290b1b0/"> &nbsp;&nbsp; LinkedIn</a></p></div>
   </div>
-  
 </div>
 
+<!--Footer-->
 
 <footer style="margin-top: 50px;">
   <div>
@@ -137,5 +166,8 @@
   <div class="inlineBlock"><h6>© 2021 Tyler Kavanaugh All Rights Reserved</h6></div>
 </footer>
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/index.js"></script>
+
 </html>
 

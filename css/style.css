@@ -19,6 +19,10 @@ header {
   margin: 50px 10px 50px 100px;
 }
 
+#toggleDown {
+  display: none;
+}
+
 .inlineBlock2 {
   display: inline-block;
   vertical-align: bottom;
@@ -72,7 +76,20 @@ header {
   display: flex; 
 }
 
-button {
+.buttonMain {
+  background-image: linear-gradient(85deg, rgba(15,48,87,1),rgba(0,88,122,1));
+  border: none;
+  color: white;
+  padding: 9px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px;
+} 
+
+.buttonSec {
   background-image: linear-gradient(85deg, rgba(15,48,87,1),rgba(0,88,122,1));
   border: none;
   color: white;
@@ -261,6 +278,8 @@ footer {
     width: 95%;
     margin: 0 auto;
   }
+
+
 
   .contentTop {
       width: 95%;
