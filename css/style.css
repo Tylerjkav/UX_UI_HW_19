@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-#all {
-  max-width: 1500px;
-  margin: auto;
-}
 
 header {
   position: fixed;
@@ -333,4 +329,10 @@ footer {
     "linkedin"
     ;
   }
+}
+
+
+#all {
+  max-width: 1600px;
+  margin: auto;
 }
