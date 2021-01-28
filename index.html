@@ -12,12 +12,15 @@
 
 <!-- Top navigation   -->
 
-  <header>
+  <header class="head">
     <div class="inlineBlock">
-      <img style="width: 58px;" src="images/k-icon.png" alt="Tyler Kavanaugh logo"></div>
-      <div class="inlineBlock2"><a href="#">Work</a></div>
+      <div class="logo"><img src="images/tk-logo.png" alt="Tyler Kavanaugh logo"></div>
+      <div class="navItems">
+      <a id="work" href="#work">Work</a>
       <!-- <div class="inlineBlock2"><a href="#">About</a></div> -->
-      <div class="inlineBlock2"><a href="#">Resume</a></div>
+      <a href="#">Resume</a>
+      </div>
+    </div>
   </header>
 
 <!--Title Section with contact Links-->
@@ -40,6 +43,7 @@
     <div class="contentArrow"><img src="images/downarrow.png" alt="arrow"></div>
   </div>
 </section>
+
 <!--toggle button-->
 
 <section class="content">
@@ -51,8 +55,10 @@
 </section>
 
 <!--Begin Hello and Toggle Section-->
+
+<section class="content">
 <div id="toggleDown">
-  <section>
+  
     <div class="content">
       <h1>Hello.</h1>
       <p>Tyler has been working as a graphic designer for the last 14+ years. She was always fascinated and inspired by the possibilities of digital projects over the print medium. So after the COVID-19 pandemic hit, and she lost her job, she decided it was time to make a career change and enrolled in a UI/UI Bootcamp with the University of Arizona.</p><br><p>Tyler aims to create experiences that are easy to use, create delight and serve an important business function, in order to build brand loyalty and trust. She enjoys discovering the problem and working to find solutions.</p>
@@ -76,33 +82,36 @@
     Adobe XD&nbsp&nbsp|&nbsp&nbspAdobe Photoshop&nbsp&nbsp|&nbsp&nbspAdobe Illustrator&nbsp&nbsp|&nbsp&nbspFigma&nbsp&nbsp|&nbsp&nbspInVision&nbsp&nbsp|&nbsp&nbspMiro</p>
     <br>
     </div>
-  </section>
+  <!-- </section> -->
 
  <!--  My UX Skills section coded using CSS flex -->
-<section class="content">
-  <div class="contentArrow"><img src="images/downarrow.png" alt="arrow"></div>
+<div class="content">
+  <!-- <div class="contentArrow"><img src="images/downarrow.png" alt="arrow"></div> -->
   <h1>My UX Skills</h1>
   <div class="flexContainer">
       <div class="flexItem"><img src="images/profile-icon.png" alt="Research" width="50%"><p style="text-align: left; font-size: 18px;"><strong>Research</strong></p><p class="leftJustified">The best way to discover what the user wants.<br><br>Ask questions and discover the why.<br><br>All ways be curios.</p></div>
       <div class="flexItem"><img src="images/eye-icon.png" alt="Visual Communication" width="50%"><p style="text-align: left; font-size: 18px;"><strong>Visual Communication</strong></p><p class="leftJustified">Use layout, color, imagery and design theory to direct the user through the user journey.<br><br>Always iterating and adjusting based on feedback and user research.</p></div>
       <div class="flexItem"><img src="images/wireframe-icon.png" alt="Wireframing" width="50%"><p style="text-align: left; font-size: 18px;"><strong>Wireframing</strong></p><p class="leftJustified">Quickly confirm legitimacy of concepts and ensure all important elements are included. <br><br>Sketches first > Low, Mid, High Fidelity.</p></div>
   </div>
-</section>
+</div>
 
-<section class="content">
+<div class="content">
   <div class="toggle">
     <div class="contentArrow">
       <button class="buttonSec">Less About Me</button>
     </div>
   </div>
+</div>  
+</div>
 </section>
 
-</div>
+
+<div id="workStart">&nbsp;</div>
 
 <!--End Toggle-->
 
 <!-- My Work Section Constructed using CSS Grid -->
-<section class="content">
+<section class="contentWork">
   <!-- <div class="contentArrow"><img src="images/downarrow.png" alt="arrow"></div> -->
   <h1>My Work</h1>
 
@@ -140,33 +149,22 @@
     </div>
   </div>
 </div>
-    <div class="empty">&nbsp;</div>
-    <h3>View all projects</h3>
 </section>
-<div class="contentArrow"><img src="images/downarrow.png" alt="arrow"></div>
-<div>
-  <div class="gridContainerSocial">
-    <div class="resume"><img src="images/paperclip.png"; alt="paperclip"><p><a href="#"> &nbsp;&nbsp; Resume</a></p></div>
+ 
+<!-- Footer -->
+
+<footer class="foot">
+<ul class="footCont">
+  <li class="footItem"><img class="logoFoot" src="images/tk-logo.png" alt="Tyler Kavanaugh logo"></li>
+  <li class="footItem"><div class="resume" class="footSocial"><img src="images/paperclip.png"; alt="paperclip"><p><a href="#"> &nbsp;&nbsp; Resume</a></p></div>
 
     <div class="email"><img src="images/email.png"; alt="Email"><p><a href="mailto:tyler@tylerkavanaugh.com"> &nbsp;&nbsp; tyler@tylerkavanaugh.com</a></p></div>
 
-    <div class="linkedin"><img src="images/linkedin.png"; alt="LinkedIn"><p><a href="https://www.linkedin.com/in/tyler-kavanaugh-28290b1b0/"> &nbsp;&nbsp; LinkedIn</a></p></div>
-  </div>
-  <div class="empty">&nbsp;</div>
-  <h3><img src="images/uparrow.png" width="20px"> <a href="#top"> Back to top</a></h3>
-  </div>
-<!--Footer-->
-</div>
-
-<footer style="margin-top: 50px;">
-  <div>
-    <div class="inlineBlock"><img src="images/tk-logo.png" alt="Tyler Kavanaugh logo"></div>
-      <div class="inlineBlock2"><a href="#">Work</a></div>
-      <!-- <div class="inlineBlock2"><a href="#">About</a></div> -->
-      <div class="inlineBlock2"><a href="#">Resume</a></div></div>
-  </div>
-  <div class="inlineBlock"><h6>© 2021 Tyler Kavanaugh All Rights Reserved</h6></div>
+    <div class="linkedin"><img src="images/linkedin.png"; alt="LinkedIn"><p><a href="https://www.linkedin.com/in/tyler-kavanaugh-28290b1b0/"> &nbsp;&nbsp; LinkedIn</a></p></div></li>
+</ul>
+<p class="footCont">© 2021 Tyler Kavanaugh All Rights Reserved</p>
 </footer>
+
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="js/index.js"></script>
